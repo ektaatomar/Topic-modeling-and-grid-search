@@ -1,0 +1,13 @@
+We have an Excel sheet called "blockchain_data.xlsx" which contains information about 941 abstracts attached. 
+The column of interest is "AB", which stands for abstracts.
+Columns "DE" (contains keywords) and "TI" (title of the paper) can be useful as well. 
+
+Below are the tasks we will be performing over this data:
+
+a) Preprocess data to remove stopwords, punctuations, digits, normalize the data, lemmatize, and get rid of other noisy and meaningless words.
+
+b) Generate a word cloud.
+
+c) Generate 25 topics using LDA and NMF.
+
+d) Plot the 100 most frequently occurring terms in the corpus.
